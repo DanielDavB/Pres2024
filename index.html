@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Voto en linea</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.html">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.html">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.html">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.html">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.html">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="assets/lib/semantic-ui-accordion/accordion.min.css" rel="stylesheet">
+    <link href="assets/lib/semantic-ui-transition/transition.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+  </head>
+
+  <body id="home" data-spy="scroll" data-target="#navbar-spy" data-offset="100">
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main>
+
+      <!-- ============================================-->
+      <!-- Preloader ==================================-->
+      <div class="preloader p-0" id="preloader">
+        <div class="loader d-flex flex-column align-items-center">
+          <div class="ball-scale-ripple">
+            <div></div>
+          </div>
+          <h5 class="fs-1 pr- text-light text-uppercase mb-0 mt-3">Loading</h5>
+        </div>
+      </div>
+      <!-- End of Preloader ===========================--><a class="bottom-to-top rounded-soft" href="#top" data-fancyscroll><span class="fas fa-angle-up lg" data-fa-transform="down-2"></span></a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0" id="top">
+        <div class="container"><a class="navbar-brand ml-3 ml-md-0" href="index-2.html"><img style="margin-bottom: 9px;" /></a><button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse ml-2 ml-md-0" id="navbarContent">
+            <ul class="navbar-nav text-uppercase font-weight-semi-bold ml-auto" id="navbar-spy">
+              
+              <li class="nav-item"><a class="nav-link" href="#info" data-fancyscroll="data-fancyscroll"><span class="nav-link-text"> Más informacion</span></a></li>
+            </ul>
+            <ul class="navbar-nav text-uppercase font-weight-semi-bold">
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <section> begin ============================-->
+      <section class="py-0 text-center text-white">
+        
+        <div class="bg-holder overlay" style="background-image:url(assets/img/background2.png);"></div>
+        <!--/.bg-holder-->
+        <div class="container">
+
+          <div class="row min-vh-100 py-6 py-md-0 flex-center">
+            
+            <div class="col-auto">
+              <p style="font-size: x-large;" class=" lead text-sans-serif ls mt-5" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll"><br />El día para votar es el <strong>2 de junio de 2024.</strong> Faltan:</p>
+              
+              <h3 class="text-uppercase text-white font-weight-bold ls-1"  style="margin-bottom: 15rem;" id="demo"></h3>
+
+              <h3 class="text-uppercase text-white font-weight-bold ls-1" data-zanim-xs='{"animation":"slide-right","delay":0.6,"duration":0.5}' data-zanim-trigger="scroll">VOTA EN LÍNEA</h3>
+
+              <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("Jun 2, 2024 08:00:00").getTime();
+      
+              // Update the count down every 1 second
+              var x = setInterval(function() {
+      
+                // Get today's date and time
+                var now = new Date().getTime();
+      
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+      
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = days + "días. " + hours + "hrs. "
+                + minutes + "min. " + seconds + "seg. ";
+      
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+              }, 1000);
+              </script>
+              <p style="font-size: x-large;" class="text-uppercase lead text-sans-serif ls mt-5" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll"><br />REGÍSTRATE PARA PODER VOTAR ESTE 2024</p><a class="btn btn-danger btn-lg mt-3" href="./registro.html" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll">Ir al registro</a><a class="text-500 godown-arrow bounce" href="./registro.html" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"slide-down","delay":0.9,"duration":1}' data-zanim-trigger="scroll"><span class="fas fa-chevron-down fa-lg"></span></a>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <!-- <section> begin ============================-->
+      <section id="info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-between " style="margin-top: 10rem;">
+              <div class="text-center">
+                <h3 class="text-uppercase font-weight-bold ls-1" style="color: black;" data-zanim-xs='{"animation":"slide-right","delay":0.6,"duration":0.5}' data-zanim-trigger="scroll">EJERCE TU VOTO</h3>               
+              <p style="font-size: x-large;" class="text-uppercase lead text-sans-serif ls" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll"><br />PARTICIPA EN LAS DECISIONES IMPORTANTES DEL PAÍS</p><a class="btn btn-danger btn-lg mt-3" href="./registro.html" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"zoom-in","delay":0.8,"duration":0.5}' data-zanim-trigger="scroll">Ir al registro</a><a class="text-500 godown-arrow bounce" href="./registro.html" data-fancyscroll="data-fancyscroll" data-zanim-xs='{"animation":"slide-down","delay":0.9,"duration":1}' data-zanim-trigger="scroll"><span class="fas fa-chevron-down fa-lg"></span></a>
+                
+              </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-between mt-5 mt-md-0 pl-md-5">
+              <div>
+              </div><img class="rounded mt-4 img-fluid" src="assets/img/voto.png" alt=" " data-zanim-xs='{"from":{"opacity":0,"y":100},"to":{"opacity":1,"y":0},"duration":2}' data-zanim-trigger="scroll" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section> begin ============================-->
+      
+
+
+<!--
+
+      <!-- <section> begin ============================-->
+        <section style=" background-color: #302758;">
+          <div class="container">
+            <h3 class="text-white mb-4">Preguntas frecuentes</h3>
+            <div class="row">
+              <div class="col-md-8 px-0">
+                <div class="ui accordion ml-2">
+                  <div class="title active text-400 font-weight-bold"><i class="dropdown icon"></i> ¿Cómo puedo registrarme y votar en las elecciones de 2024 en línea?</div>
+                  <div class="content active ml-4 text-200 mt-0">
+                    <p class="transition visible" style="display: block !important;">El proceso de registro y votación en línea para las elecciones de 2024 es fácil y conveniente. Simplemente visite nuestro sitio web oficial de registro de votantes y siga las instrucciones paso a paso para completar su registro. Una vez registrado, recibirá información sobre cómo votar en línea durante el período de votación.</p>
+                  </div>
+                  <div class="title text-400 font-weight-bold"><i class="dropdown icon"></i> ¿Cómo puedo acceder al sistema de votación en línea?</div>
+                  <div class="content ml-4 text-200 mt-0">
+                    <p>El sistema de votación en línea estará disponible a través de nuestro sitio web oficial de elecciones. Simplemente inicie sesión con sus credenciales de registro proporcionadas durante el proceso de registro. Desde allí, podrá acceder a la boleta electoral y emitir su voto de manera segura y conveniente desde la comodidad de su hogar.</p>
+                  </div>
+                  <div class="title text-400 font-weight-bold"><i class="dropdown icon"></i> ¿Qué necesito para registrarme y votar en línea?</div>
+                  <div class="content ml-4 text-200 mt-0">
+                    <p>Para registrarse y votar en línea, necesitará tener acceso a internet y cumplir con los requisitos de elegibilidad para votar en las elecciones de 2024. Asegúrese de tener a mano su identificación oficial y cualquier otra información requerida para completar el proceso de registro de votantes en línea.</p>
+                  </div>
+                  <div class="title text-400 font-weight-bold"><i class="dropdown icon"></i> ¿Cómo puedo obtener ayuda si tengo problemas con el registro en línea o el proceso de votación?</div>
+                  <div class="content ml-4 text-200 mt-0">
+                    <p>Si encuentra algún problema durante el proceso de registro en línea o al votar, nuestro equipo de soporte estará disponible para ayudarlo. Puede comunicarse con nosotros a través de nuestro centro de ayuda en línea o enviando un correo electrónico a nuestro equipo de asistencia. Estaremos encantados de ayudarlo a resolver cualquier problema que pueda encontrar.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main><!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+    <footer class="footer-bg-color">
+      <div class="container">
+        <div class="row fs--1 no-gutters py-4 text-center">
+          <div class="col-md-6 col-sm-auto text-md-left pl-0">
+            <p class="mb-0 text-400"> <span class="d-none d-sm-inline-block"></span><br class="d-sm-none" /> 2024&copy; Empresa</p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade bd-example-modal-lg overflow-auto" tabindex="-1" role="dialog" aria-labelledby="registration-modal" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header flex-column"><button class="close pr-3 pt-2" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="w-75">
+              <h4 class="pl-3 text-900" id="registration-modal">Register For Conference</h4>
+              <p class="pl-3 mb-0">Conference 2020 will be available in September. Please provide your information to be notified when Conference briefing are made.</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <form class="zform" method="post">
+              <div class="from-row">
+                <div class="col-lg-9">
+                  <div class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="First Name*"></div>
+                </div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9 mt-sm-0 mt-3">
+                  <div class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="Last Name*"></div>
+                </div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9">
+                  <div class="form-group"><input class="form-control" type="email" name="from" required="" placeholder="Business Email Address*"></div>
+                </div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9 mt-sm-0 mt-3">
+                  <div class="form-group"><input class="form-control" type="tel" placeholder="Phone"></div>
+                </div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9">
+                  <div class="form-group"><input class="form-control" type="text" placeholder="Company Name"></div>
+                </div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9 mb-3"><select class="custom-select mr-sm-2 text-400" id="inlineFormCustomSelect">
+                    <option selected="">Country Name</option>
+                    <option value="1">Bangladesh</option>
+                    <option value="2">India</option>
+                    <option value="3">Nepal</option>
+                  </select></div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9 mt-sm-0 order-sm-0 order-1">
+                  <div class="custom-control custom-checkbox mb-3"><input class="custom-control-input" id="customControlValidation3" type="checkbox" name="radio-stacked" required="" value="option3"><label class="custom-control-label fs-0 text-500 text-base" for="customControlValidation3">Yes, I would like to receive emails from the <a class="text-decoration-none" href="#">ThemeWagon Inc.</a> </label></div>
+                </div>
+              </div>
+              <div class="from-row">
+                <div class="col-lg-9 pb-3"><button class="btn btn-danger btn-lg" type="submit" name="submit" value="Send!">Submmit</button></div>
+              </div>
+              <div class="zform-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/lib/loaders.css/loaders.css.js"></script>
+    <script src="assets/lib/stickyfilljs/stickyfill.min.js"></script>
+    <script src="assets/lib/sticky-kit/sticky-kit.min.js"></script>
+    <script src="assets/lib/jquery-countdown/jquery.countdown.min.js"></script>
+    <script src="assets/lib/semantic-ui-accordion/accordion.min.js"></script>
+    <script src="assets/lib/semantic-ui-transition/transition.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&amp;callback=initMap" async></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+
+
+
+</html>

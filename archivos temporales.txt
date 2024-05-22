@@ -1,0 +1,42 @@
+ <section> begin ============================-->
+      <section id="contact">
+        <div class="container">
+          <h3 class="mb-lg-6 mb-4">Location & Contact</h3>
+          <div class="row">
+            <div class="col-lg-4">
+              <form class="zform" method="post"><input class="form-control" type="hidden" name="to" value="username@domain.extension" /><input class="form-control" type="text" name="name" required="" placeholder="Your Name" /><input class="form-control my-4" type="email" name="from" required="" placeholder="Email Address" /><textarea class="form-control text-aria-height" name="massage" rows="10" placeholder="Type your message"></textarea><button class="btn btn-primary btn-block btn-lg mt-4" type="submit" name="submit" value="Send!">submit</button>
+                <div class="zform-feedback"></div>
+              </form>
+            </div>
+            <div class="col-lg-8 mt-4 mt-lg-0 d-flex flex-column justify-content-between">
+              <div class="row">
+                <div class="col-md-auto col-6 border-400 pr-md-4">
+                  <ul class="fa-ul mb-0">
+                    <li class="font-weight-bold mb-2"><span class="fa-li pr-2"><i class="fas fa-map"></i></span>The Grand Hall</li>
+                    <li>Eardenia Square<br />House # 08, Road #52,</li>
+                  </ul>
+                </div>
+                <div class="col-md-auto col-6 border-left border-md-right pr-md-4">
+                  <ul class="fa-ul mb-0">
+                    <li class="mb-2"><span class="fa-li pr-2"><i class="fas fa-phone"></i></span><a href="tel:115973764">+115973764</a><br /><a href="tel:115973764">+115973764</a></li>
+                    <li><span class="fa-li pr-2"><i class="fas fa-envelope"></i></span><a href="mailto:example@mail.com">example@mail.com</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-auto pl-3 mt-4 mt-md-0 pb-md-2">
+                  <ul class="fa-ul mb-0">
+                    <li><span class="fa-li pr-2"><i class="fab fa-linkedin-in"></i></span><a href="https://www.linkedin.com/">Linkedin</a></li>
+                    <li class="my-1"><span class="fa-li pr-2"><i class="fab fa-google-plus-g"></i></span><a href="https://plus.google.com/discover">Google+</a></li>
+                    <li><span class="fa-li pr-2"><i class="fab fa-twitter"></i></span><a href="https://twitter.com/">Twitter </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="googlemap rounded-soft mt-4 mt-lg-0" data-latlng="48.8583701,2.2922873,17" data-scrollwheel="false" data-icon="assets/img/icons/map-marker.png" data-zoom="17" data-theme="Default" style="min-height:245px;">
+                <div class="marker-content">
+                  <h5>Eiffel Tower</h5>
+                  <p>Gustave Eiffel's iconic, wrought-iron 1889 tower,<br /> with steps and elevators to observation decks.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
